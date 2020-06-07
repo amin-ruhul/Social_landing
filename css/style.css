@@ -1,0 +1,48 @@
+body{
+    background: #333;
+    color: #fff;
+}
+
+.navbar{
+    border-bottom: 3px solid #fff;
+    opacity: 0.8;
+}
+
+#home{
+    background: url('../img/home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+}
+
+#home .dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 600px;
+    background: rgb(0, 0, 0,0.7);
+}
+#home .home-inner{
+    padding-top: 120px;
+}
+
+#home .card-form{
+    opacity:0.8 ;
+}
+
+#home .fas ,#create .fas{
+    color: #008ed6;
+    background: #fff;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+#explore .fas, #share .fas{
+    color: #fff;
+    background: #333;
+    padding: 5px;
+    border-radius: 5px;
+
+}
